@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<?import java.lang.*?>-->
+<!--<?import java.util.*?>-->
+<!--<?import javafx.scene.*?>-->
+<!--<?import javafx.scene.control.*?>-->
+<!--<?import javafx.scene.layout.*?>-->
+<!--<AnchorPane xmlns="http://javafx.com/javafx"-->
+<!--            xmlns:fx="http://javafx.com/fxml"-->
+<!--            fx:controller="Sample"-->
+<!--            prefHeight="400.0" prefWidth="600.0">-->
+<!--</AnchorPane>-->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Program.General.SignUp.SignUpController">
+    <children>
+        <AnchorPane layoutY="85.0" prefHeight="317.0" prefWidth="700.0" style="-fx-background-color: #FAFAFA;">
+            <children>
+            <TextField fx:id="firstNameField" layoutX="34.0" layoutY="28.0" prefHeight="36.0" prefWidth="267.0" promptText="First name" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="lastNameField" layoutX="34.0" layoutY="89.0" prefHeight="36.0" prefWidth="267.0" promptText="Last name" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+                <TextField fx:id="loginField" layoutX="398.0" layoutY="28.0" prefHeight="36.0" prefWidth="267.0" promptText="Login" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="passwordField" layoutX="398.0" layoutY="89.0" prefHeight="39.0" prefWidth="267.0" promptText="Password" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </PasswordField>
+            <RadioButton fx:id="femaleRadioButton" layoutX="378.0" layoutY="170.0" mnemonicParsing="false" text="Жінка">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="genderRadioButtonGroup" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="maleRadioButton" layoutX="228.0" layoutY="170.0" mnemonicParsing="false" selected="true" text="Чоловік" toggleGroup="$genderRadioButtonGroup">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </RadioButton>
+                <Button fx:id="signUpButton" layoutX="260.0" layoutY="253.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="180.0" style="-fx-background-color: #F39C63;" text="Реєстрація" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="19.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="281.0" layoutY="1.0" prefHeight="74.0" prefWidth="138.0" text="Sign up" textFill="WHITE">
+            <font>
+                <Font name="Harlow Solid Italic" size="44.0" />
+            </font>
+        </Label>
+        <Polygon fill="#f39c63" layoutY="-40.0" points="26.800012588500977, 52.599998474121094, 50.199974060058594, 63.199989318847656, 20.600000381469727, 75.99999237060547" stroke="#f39c63" strokeType="INSIDE" />
+        <Polygon fill="#f39c63" layoutX="26.0" layoutY="1.0" points="40.599998474121094, 45.79998016357422, 51.000022888183594, 71.99999237060547, 29.399986267089844, 64.20000457763672" stroke="#f39c63" strokeType="INSIDE" />
+        <Polygon fill="#f39c63" layoutX="602.0" layoutY="-34.0" points="40.599998474121094, 45.79998016357422, 51.000022888183594, 71.99999237060547, 29.399986267089844, 64.20000457763672" stroke="#f39c63" strokeType="INSIDE" />
+        <Circle fill="#f39c63" layoutX="25.0" layoutY="60.0" radius="11.0" stroke="#f39c63" strokeType="INSIDE" />
+        <Circle fill="#f39c63" layoutX="676.0" layoutY="49.0" radius="11.0" stroke="#f39c63" strokeType="INSIDE" />
+    </children>
+</AnchorPane>
