@@ -22,77 +22,122 @@
 <!--            prefHeight="400.0" prefWidth="600.0">-->
 <!--</AnchorPane>-->
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Program.Client.Controllers.ClientController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="426.0" prefWidth="700.0"
+            style="-fx-background-color: #2E3348;"
+            xmlns="http://javafx.com/javafx/19"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Program.Client.Controllers.ClientController">
     <children>
-        <AnchorPane layoutY="111.0" prefHeight="317.0" prefWidth="700.0" style="-fx-background-color: #FAFAFA;">
+        <AnchorPane layoutY="111.0" prefHeight="317.0" prefWidth="700.0"
+                    style="-fx-background-color: #FAFAFA;">
          <children>
-            <Label layoutX="39.0" layoutY="15.0" prefHeight="26.0" prefWidth="83.0" text="Баланс:">
+            <Label layoutX="39.0" layoutY="15.0" prefHeight="26.0"
+                   prefWidth="83.0" text="Баланс:">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
                </font>
             </Label>
-            <Label fx:id="balanceLabel" layoutX="138.0" layoutY="15.0" prefHeight="26.0" prefWidth="529.0" text="0,00">
+            <Label fx:id="balanceLabel" layoutX="138.0" layoutY="15.0"
+                   prefHeight="26.0" prefWidth="529.0" text="0,00">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
                </font>
             </Label>
-            <Label layoutX="39.0" layoutY="236.0" prefHeight="26.0" prefWidth="321.0" text="Поповнити інший рахунок з рахунку">
+            <Label layoutX="39.0" layoutY="236.0" prefHeight="26.0"
+                   prefWidth="321.0"
+                   text="Поповнити інший рахунок з рахунку">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
                </font>
             </Label>
-            <Label layoutX="39.0" layoutY="181.0" prefHeight="26.0" prefWidth="367.0" text="Поповнити мобільний телефон з рахунку">
+            <Label layoutX="39.0" layoutY="181.0" prefHeight="26.0"
+                   prefWidth="367.0"
+                   text="Поповнити мобільний телефон з рахунку">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
                </font>
             </Label>
-            <Label layoutX="39.0" layoutY="126.0" prefHeight="26.0" prefWidth="214.0" text="Зняти гроші з рахунку">
+            <Label layoutX="39.0" layoutY="126.0" prefHeight="26.0"
+                   prefWidth="214.0" text="Зняти гроші з рахунку">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
                </font>
             </Label>
-            <Label layoutX="39.0" layoutY="73.0" prefHeight="26.0" prefWidth="181.0" text="Поповнити рахунок">
+            <Label layoutX="39.0" layoutY="73.0" prefHeight="26.0"
+                   prefWidth="181.0" text="Поповнити рахунок">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
                </font>
             </Label>
-            <Button fx:id="putMoneyOnAccountButton" layoutX="570.0" layoutY="67.0" mnemonicParsing="false" style="-fx-background-color: #f39c63; -fx-border-radius: 5;" text="Вперед" textFill="WHITE">
+            <Button fx:id="putMoneyOnAccountButton" layoutX="570.0"
+                    layoutY="67.0" mnemonicParsing="false"
+                    style="-fx-background-color: #f39c63;
+                    -fx-border-radius: 5;" text="Вперед" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
                </font>
             </Button>
-            <Button fx:id="putMoneyToAnotherAccountFromAccountButton" layoutX="570.0" layoutY="230.0" mnemonicParsing="false" style="-fx-background-color: #f39c63; -fx-border-radius: 5;" text="Вперед" textFill="WHITE">
+            <Button fx:id="putMoneyToAnotherAccountFromAccountButton"
+                    layoutX="570.0" layoutY="230.0"
+                    mnemonicParsing="false" style="-fx-background-color:
+                    #f39c63; -fx-border-radius: 5;" text="Вперед"
+                    textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
                </font>
             </Button>
-            <Button fx:id="putMoneyOnPhoneFromAccountButton" layoutX="570.0" layoutY="175.0" mnemonicParsing="false" style="-fx-background-color: #f39c63; -fx-border-radius: 5;" text="Вперед" textFill="WHITE">
+            <Button fx:id="putMoneyOnPhoneFromAccountButton"
+                    layoutX="570.0" layoutY="175.0"
+                    mnemonicParsing="false"
+                    style="-fx-background-color: #f39c63;
+                    -fx-border-radius: 5;" text="Вперед" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
                </font>
             </Button>
-            <Button fx:id="withdrawMoneyFromAccountButton" layoutX="570.0" layoutY="120.0" mnemonicParsing="false" style="-fx-background-color: #f39c63; -fx-border-radius: 5;" text="Вперед" textFill="WHITE">
+            <Button fx:id="withdrawMoneyFromAccountButton" layoutX="570.0"
+                    layoutY="120.0" mnemonicParsing="false"
+                    style="-fx-background-color: #f39c63;
+                    -fx-border-radius: 5;" text="Вперед" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
                </font>
             </Button>
          </children></AnchorPane>
-        <Label layoutX="298.0" layoutY="25.0" prefHeight="74.0" prefWidth="104.0" text="Client" textFill="WHITE">
+        <Label layoutX="298.0" layoutY="25.0" prefHeight="74.0"
+               prefWidth="104.0" text="Client" textFill="WHITE">
             <font>
                 <Font name="Harlow Solid Italic" size="44.0" />
             </font>
         </Label>
-        <Polygon fill="#f39c63" layoutY="-14.0" points="26.800012588500977, 52.599998474121094, 50.199974060058594, 63.199989318847656, 20.600000381469727, 75.99999237060547" stroke="#f39c63" strokeType="INSIDE" />
-        <Polygon fill="#f39c63" layoutX="26.0" layoutY="28.0" points="40.599998474121094, 45.79998016357422, 51.000022888183594, 71.99999237060547, 29.399986267089844, 64.20000457763672" stroke="#f39c63" strokeType="INSIDE" />
-        <Polygon fill="#f39c63" layoutX="602.0" layoutY="-12.0" points="40.599998474121094, 45.79998016357422, 51.000022888183594, 71.99999237060547, 29.399986267089844, 64.20000457763672" stroke="#f39c63" strokeType="INSIDE" />
-        <Circle fill="#f39c63" layoutX="25.0" layoutY="86.0" radius="11.0" stroke="#f39c63" strokeType="INSIDE" />
-        <Circle fill="#f39c63" layoutX="676.0" layoutY="75.0" radius="11.0" stroke="#f39c63" strokeType="INSIDE" />
+        <Polygon fill="#f39c63" layoutY="-14.0"
+                 points="26.800012588500977, 52.599998474121094,
+                 50.199974060058594, 63.199989318847656,
+                 20.600000381469727, 75.99999237060547"
+                 stroke="#f39c63" strokeType="INSIDE" />
+        <Polygon fill="#f39c63" layoutX="26.0" layoutY="28.0"
+                 points="40.599998474121094, 45.79998016357422,
+                 51.000022888183594, 71.99999237060547,
+                 29.399986267089844, 64.20000457763672"
+                 stroke="#f39c63" strokeType="INSIDE" />
+        <Polygon fill="#f39c63" layoutX="602.0" layoutY="-12.0"
+                 points="40.599998474121094, 45.79998016357422,
+                 51.000022888183594, 71.99999237060547,
+                 29.399986267089844, 64.20000457763672"
+                 stroke="#f39c63" strokeType="INSIDE" />
+        <Circle fill="#f39c63" layoutX="25.0" layoutY="86.0"
+                radius="11.0" stroke="#f39c63" strokeType="INSIDE" />
+        <Circle fill="#f39c63" layoutX="676.0" layoutY="75.0"
+                radius="11.0" stroke="#f39c63" strokeType="INSIDE" />
       <MenuBar layoutY="-2.0" prefHeight="26.0" prefWidth="700.0">
         <menus>
             <Menu fx:id="menu" mnemonicParsing="false" text="Режим">
               <items>
-                <MenuItem fx:id="normalModeMenuItem" mnemonicParsing="false" text="Звичайний" />
-                  <MenuItem fx:id="settingModeMenuItem" mnemonicParsing="false" text="Налаштувань" />
+                <MenuItem fx:id="normalModeMenuItem"
+                          mnemonicParsing="false" text="Звичайний" />
+                  <MenuItem fx:id="settingModeMenuItem"
+                            mnemonicParsing="false" text="Налаштувань" />
               </items>
             </Menu>
         </menus>

@@ -8,7 +8,6 @@ public class Const {
     public static final String USERS_GENDER = "gender";
     public static final String USERS_USER_NAME = "user_name";
     public static final String USERS_PASSWORD = "password";
-
     public static final String USERS_BALANCE = "balance";
 
 }
