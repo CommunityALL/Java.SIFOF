@@ -24,13 +24,23 @@
 <!--            prefHeight="400.0" prefWidth="600.0">-->
 <!--</AnchorPane>-->
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Program.Client.Controllers.SettingsController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="426.0" prefWidth="700.0"
+            style="-fx-background-color: #2E3348;"
+            xmlns="http://javafx.com/javafx/19"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Program.Client.Controllers.SettingsController">
     <children>
-        <AnchorPane layoutY="111.0" prefHeight="317.0" prefWidth="700.0" style="-fx-background-color: #FAFAFA;">
+        <AnchorPane layoutY="111.0" prefHeight="317.0"
+                    prefWidth="700.0"
+                    style="-fx-background-color: #FAFAFA;">
             <children>
-                <Label layoutX="68.0" layoutY="25.0" text="Змінити ім'я">
+                <Label layoutX="68.0" layoutY="25.0"
+                       text="Змінити ім'я">
                     <font>
-                        <Font name="System Bold Italic" size="17.0" />
+                        <Font name="System Bold Italic"
+                              size="17.0" />
                     </font>
                 </Label>
                 <Label layoutX="68.0" layoutY="194.0" text="Змінити пароль">
@@ -48,42 +58,81 @@
                         <Font name="System Bold Italic" size="17.0" />
                     </font>
                 </Label>
-                <Button fx:id="firstNameButton" layoutX="598.0" layoutY="23.0" mnemonicParsing="false" style="-fx-background-color: #f39c63;" text="Вперед" textFill="WHITE">
+                <Button fx:id="firstNameButton" layoutX="598.0"
+                        layoutY="23.0" mnemonicParsing="false"
+                        style="-fx-background-color: #f39c63;"
+                        text="Вперед" textFill="WHITE">
                     <font>
                         <Font name="System Bold Italic" size="17.0" />
                     </font>
                 </Button>
-                <Button fx:id="passwordButton" layoutX="598.0" layoutY="189.0" mnemonicParsing="false" style="-fx-background-color: #f39c63;" text="Вперед" textFill="WHITE">
+                <Button fx:id="passwordButton" layoutX="598.0"
+                        layoutY="189.0" mnemonicParsing="false"
+                        style="-fx-background-color: #f39c63;"
+                        text="Вперед" textFill="WHITE">
                     <font>
                         <Font name="System Bold Italic" size="17.0" />
                     </font>
                 </Button>
-                <Button fx:id="loginButton" layoutX="598.0" layoutY="135.0" mnemonicParsing="false" style="-fx-background-color: #f39c63;" text="Вперед" textFill="WHITE">
+                <Button fx:id="loginButton" layoutX="598.0"
+                        layoutY="135.0" mnemonicParsing="false"
+                        style="-fx-background-color: #f39c63;"
+                        text="Вперед" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic"
+                              size="17.0" />
+                    </font>
+                </Button>
+                <Button fx:id="lastNameButton" layoutX="598.0"
+                        layoutY="79.0" mnemonicParsing="false"
+                        style="-fx-background-color: #f39c63;"
+                        text="Вперед" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic"
+                              size="17.0" />
+                    </font>
+                </Button>
+                <Button fx:id="deleteUserButton" layoutX="598.0"
+                        layoutY="259.0" mnemonicParsing="false"
+                        style="-fx-background-color: #2E3348;"
+                        text="Вперед" textFill="WHITE">
                     <font>
                         <Font name="System Bold Italic" size="17.0" />
                     </font>
                 </Button>
-                <Button fx:id="lastNameButton" layoutX="598.0" layoutY="79.0" mnemonicParsing="false" style="-fx-background-color: #f39c63;" text="Вперед" textFill="WHITE">
-                    <font>
-                        <Font name="System Bold Italic" size="17.0" />
-                    </font>
-                </Button>
-                <Button fx:id="deleteUserButton" layoutX="598.0" layoutY="259.0" mnemonicParsing="false" style="-fx-background-color: #2E3348;" text="Вперед" textFill="WHITE">
-                    <font>
-                        <Font name="System Bold Italic" size="17.0" />
-                    </font>
-                </Button>
-                <Label layoutX="68.0" layoutY="264.0" text="Видалити акаунт">
+                <Label layoutX="68.0" layoutY="264.0"
+                       text="Видалити акаунт">
                     <font>
                         <Font name="System Bold Italic" size="17.0" />
                     </font>
                 </Label>
-                <TextField fx:id="firstNameField" layoutX="295.0" layoutY="28.0" prefHeight="26.0" prefWidth="260.0" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;" />
-                <TextField fx:id="loginField" layoutX="295.0" layoutY="139.0" prefHeight="26.0" prefWidth="260.0" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;" />
-                <TextField fx:id="lastNameField" layoutX="295.0" layoutY="83.0" prefHeight="26.0" prefWidth="260.0" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;" />
-                <PasswordField fx:id="passwordField" layoutX="295.0" layoutY="195.0" prefHeight="26.0" prefWidth="260.0" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;" />
+                <TextField fx:id="firstNameField" layoutX="295.0"
+                           layoutY="28.0" prefHeight="26.0"
+                           prefWidth="260.0"
+                           style="-fx-background-color: #FAFAFA;
+                           -fx-border-color: silver;
+                           -fx-border-radius: 5;" />
+                <TextField fx:id="loginField" layoutX="295.0"
+                           layoutY="139.0" prefHeight="26.0"
+                           prefWidth="260.0"
+                           style="-fx-background-color: #FAFAFA;
+                           -fx-border-color: silver;
+                           -fx-border-radius: 5;" />
+                <TextField fx:id="lastNameField" layoutX="295.0"
+                           layoutY="83.0" prefHeight="26.0"
+                           prefWidth="260.0"
+                           style="-fx-background-color: #FAFAFA;
+                           -fx-border-color: silver;
+                           -fx-border-radius: 5;" />
+                <PasswordField fx:id="passwordField" layoutX="295.0"
+                               layoutY="195.0" prefHeight="26.0"
+                               prefWidth="260.0"
+                               style="-fx-background-color: #FAFAFA;
+                               -fx-border-color: silver;
+                               -fx-border-radius: 5;" />
             </children></AnchorPane>
-        <Label layoutX="298.0" layoutY="25.0" prefHeight="74.0" prefWidth="104.0" text="Client" textFill="WHITE">
+        <Label layoutX="298.0" layoutY="25.0" prefHeight="74.0"
+               prefWidth="104.0" text="Client" textFill="WHITE">
             <font>
                 <Font name="Harlow Solid Italic" size="44.0" />
             </font>
